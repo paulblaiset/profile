@@ -1,0 +1,214 @@
+body{
+  background-color: rgba(235,235,235) !important;
+  color: #2B5160;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  margin: auto ;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+
+  color: #52D4BE;
+  font-weight:  200;
+  font-size: 40px;
+
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #2B5160;
+  font-weight: 700;
+  font-size: 20px;
+}
+a {
+  color: #2B5160;
+}
+a:hover {
+  text-decoration: none;
+  color: #6EB3F2;
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.social_link .fa span{
+font-family: 'Montserrat', sans-serif;
+}
+
+
+li {
+font-size: 15spx;
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+display: inline;
+list-style: none; /* pour enlever les puces sur IE7 */
+margin: 10px;
+align-content: center
+}
+
+/* Custom design */
+
+#btn_savoir_plus {
+
+    background-color: white;
+    color: #52D4BE;
+    padding: 5px 10px;
+    border: 1px solid #52D4BE;
+    border-radius: 3px;
+    text-decoration: none;
+
+}
+
+
+#btn_savoir_plus:hover{
+
+    background-color: #52D4BE;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid #52D4BE;
+    border-radius: 3px;
+    text-decoration: none;
+
+}
+
+
+
+.wrapper {
+  width:600px;
+  margin: 0px auto;
+}
+
+#profil-picture {
+  background : url(../images/PHB_NB_Rond.jpg) no-repeat center center;
+  margin: 0 auto;
+  background-size: cover;
+  height : 100px;
+  width: 100px;
+  border-radius: 50%
+}
+
+
+#profil-picture:hover {
+  background : url(../images/PHB_LOL.jpg) no-repeat center center;
+  margin: 0 auto;
+  background-size: cover;
+  height : 100px;
+  width : 100px;
+  border-radius: 50%
+}
+
+
+.movie_image {
+  width: 100px;
+  border-radius: 1%;
+  padding-right: 10px;
+}
+
+
+#film p{
+  width: 400px;
+}
+
+#image_temoignage {
+  height : 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.box_blanche {
+  background-color: white;
+  margin: 20px auto 20px auto;
+  padding: 50px 50px 20px 50px;
+  text-align: center;
+  border-radius:5px;
+}
+
+.temoignage {
+  position:relative;
+}
+
+.temoignage span {
+  position: absolute;
+  right: 48px;
+  top: 62px;
+}
+
+
+.box_blanche .social_link {
+  padding-top: 30px;
+  align-content: right;
+  text-align:right;
+  padding-right: -40px
+  margin: auto 0px auto auto ;
+}
+
+
+.reassurance {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 40px
+  font-weight:  700;
+  background: #52D4BE;
+  padding-top: 5px;
+  text-align:center;
+  margin: 0px auto;
+
+}
+
+
+.reassurance table {
+  width: 650px;
+  padding-top:0px;
+  padding-bottom:30px;
+  margin: 20px auto 0px auto;
+}
+
+.reassurance h5 {
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+.reassurance p {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 300;
+  font-family: 'Open Sans';
+}
+
+.reassurance span {
+  text-align: right;
+  font-size: 15px;
+  font-weight: 200;
+  font-family: 'Montserrat";
+}
+
+#footer {
+  background: #144C64;
+  padding:20px;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  color : white;
+  text-align:center;
+  color
+}
+
+
+#footer a {
+  color : white;
+  font-size: 25px;
+}
+
+#footer p {
+  color : white;
+  font-size: 10px;
+}
+
+#footer a:hover {
+  color : white ;
+}
+
+
